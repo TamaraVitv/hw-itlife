@@ -12,33 +12,16 @@ body {
   font-family: Lato, sans-serif;
 }
 .icon-button__filled {
-  background-color: var(--primary-light-color);
-  border: none;
-  padding: 9px 9px;
-  font-size: 24px;
-  cursor: pointer;
-  box-sizing: border-box;
-  width: 42px;
-  height: 42px;
-}
-.icon-button__filled:hover {
-  background-color: var(--white-fill);
-  border: none;
-  color: var(--primary-color);
-  padding: 9px 9px;
-  font-size: 24px;
-  cursor: pointer;
-  box-sizing: border-box;
-  width: 42px;
-  height: 42px;
-}
-.icon-button__filled {
   cursor: pointer;
   border: 1px solid var(--primary-light-color);
   background-color: var(--primary-light-color);
   height: 42px;
   width: 42px;
   color: var(--white-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .icon-button__filled:hover {
   cursor: pointer;
@@ -47,6 +30,10 @@ body {
   height: 42px;
   width: 42px;
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .icon-button__outlined {
   cursor: pointer;
@@ -55,6 +42,10 @@ body {
   height: 42px;
   width: 42px;
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .icon-button__outlined:hover {
   cursor: pointer;
@@ -63,6 +54,10 @@ body {
   height: 42px;
   width: 42px;
   color: var(--white-fill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 header {
   display: flex;
