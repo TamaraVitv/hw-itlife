@@ -108,15 +108,22 @@ main {
   display: flex;
   justify-content: flex-end;
 }
-.button-primary {
+button.button-primary {
   height: 42px;
   padding: 10px 20px;
+  color: var(--text-primary);
   background-color: transparent;
   cursor: pointer;
   border: 1px solid var(--outline-dark);
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
+}
+button.button-primary:hover {
+  color: var(--white-fill);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
 }
 h1 {
   color: var(--text-primary);
